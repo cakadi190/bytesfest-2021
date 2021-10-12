@@ -1,0 +1,11 @@
+.btn {
+  &-warning,
+  &-danger,
+  &-success {
+    &:focus,
+    &:focus:active,
+    &:hover {
+      color: white !important;
+    }
+  }
+}

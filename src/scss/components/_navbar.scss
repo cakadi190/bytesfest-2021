@@ -1,0 +1,25 @@
+.navbar {
+  * {
+    transition: all .2s;
+  }
+
+  .nav-item {
+    .nav-link {
+      border: 0;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        border-color: $warning;
+      }
+    }
+
+    &.active {
+      .nav-link {
+        border: 0;
+        color: $primary;
+        font-weight: bold;
+        border-bottom: 2px solid $primary;
+      }
+    }
+  }
+}
