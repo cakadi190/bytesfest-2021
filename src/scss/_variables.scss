@@ -35,6 +35,11 @@ $dark:          #201A4A !default;
 
 $min-contrast-ratio:   1.85 !default;
 
+// Border Radius
+$border-radius:               2rem !default;
+$border-radius-lg:            1rem !default;
+$border-radius-sm:            3rem !default;
+
 // Shadow
 $box-shadow-sm:               0 .2rem 1.25rem rgba($gray-700, .1) !default;
 $box-shadow:                  0 .25rem 1.5rem rgba($gray-700, .15) !default;
